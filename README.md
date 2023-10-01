@@ -13,6 +13,7 @@ payload you sent. Basically an echo server with a pipeline... for some reason.
 
 ### Example terminal output
 
+```
 [2023-10-01 17:22:27.000000195]-(systems.miso.core.Server)-[Thread-0] | [INFO] -> Server is up and running on the port, 9999
 [2023-10-01 17:22:27.000000196]-(systems.miso.core.Server)-[Thread-0] | [INFO] -> Told ConnectionHandler to start!
 [2023-10-01 17:22:27.000000196]-(systems.miso.core.ConnectionHandler)-[Thread-2] | [INFO] -> ConnectionHandler has been started!
@@ -25,3 +26,4 @@ payload you sent. Basically an echo server with a pipeline... for some reason.
 [2023-10-01 17:22:37.000000096]-(systems.miso.core.ConnectionHandler)-[Thread-2] | [INFO] -> Pipeline end result: Array(80, 69, 87, 80, 69, 87, 10)
 [2023-10-01 17:22:37.000000096]-(systems.miso.core.ConnectionHandler)-[Thread-2] | [INFO] -> Polling queue for a socket!
 [2023-10-01 17:22:40.000000211]-(systems.miso.Main$$anon$1)-[Thread-1] | [WARN] -> Received signal to shutdown...
+```
